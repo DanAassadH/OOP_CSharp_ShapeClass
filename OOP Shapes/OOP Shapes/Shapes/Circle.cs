@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OOP_Shapes.Shapes
 {
-    class Circle
+    class Circle : Shape
     {
     }
 }
