@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OOP_Shapes.Shapes;
+using System;
 
 namespace OOP_Shapes
 {
@@ -6,7 +7,14 @@ namespace OOP_Shapes
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("------- Circle Calculations -----------");
+            Circle circle = new Circle();
+            Console.WriteLine(circle);
+            circle = new Circle(3,"Red");
+            Console.WriteLine(circle);
+
+
+
         }
     }
 }

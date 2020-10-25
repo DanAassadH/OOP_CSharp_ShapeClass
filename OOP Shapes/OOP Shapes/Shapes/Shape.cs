@@ -20,6 +20,8 @@ namespace OOP_Shapes.Shapes
             Color = "White";
         }
 
+
+        //greedy constructor
         protected Shape(string color)
         {
             Color = color;
