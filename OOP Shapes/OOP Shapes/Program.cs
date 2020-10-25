@@ -19,6 +19,13 @@ namespace OOP_Shapes
             rectangle = new Rectangle(3,2, "Yellow");
             Console.WriteLine(rectangle);
 
+            Console.WriteLine("------- Triangle Calculations -----------");
+            Triangle triangle = new Triangle();
+            Console.WriteLine(triangle);
+            triangle = new Triangle(9, "Blue");
+            Console.WriteLine(triangle);
+
+        
         }
     }
 }
