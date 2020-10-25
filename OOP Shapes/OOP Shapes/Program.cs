@@ -13,7 +13,11 @@ namespace OOP_Shapes
             circle = new Circle(3,"Red");
             Console.WriteLine(circle);
 
-
+            Console.WriteLine("------- Rectangle Calculations -----------");
+            Rectangle rectangle = new Rectangle();
+            Console.WriteLine(rectangle);
+            rectangle = new Rectangle(3,2, "Yellow");
+            Console.WriteLine(rectangle);
 
         }
     }
