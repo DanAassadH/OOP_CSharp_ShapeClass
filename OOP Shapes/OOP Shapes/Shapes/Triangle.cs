@@ -4,13 +4,14 @@ using System.Text;
 
 namespace OOP_Shapes.Shapes
 {
-    class Triangle : Shape
+    // Used Encapsulation when defined classes for each of the different shapes. 
+    class Triangle : Shape // Depicts Inheritance , the class Triangle had properties "area" and "perimeter" derived from base class "Shape"
     {
         // Equilateral Triangle -- all 3 sides are equal Base
         public double BaseLength { get; set; }
 
         // Height of Triangle = (1/2) * √3 * Base
-        private double _height;
+        private double _height;  //Anstraction to hide unnecessary details 
         public double Height
         {
             get
@@ -25,7 +26,7 @@ namespace OOP_Shapes.Shapes
         }
 
         // Perimeter of Triangle = 3 * Base
-        public override double Perimeter
+        public override double Perimeter  // the area and perimeter property shows an example of polymorphism. Polymorphism means that you can have multiple classes that can be used interchangeably, even though each class implements the same properties or methods in different ways.
         {
             get
             {
