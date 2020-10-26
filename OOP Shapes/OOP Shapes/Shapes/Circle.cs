@@ -60,11 +60,11 @@ namespace OOP_Shapes.Shapes
         /**https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings
         *https://www.daveoncsharp.com/2009/09/formatting-decimals-in-csharp/
         */
-        public override string ToString()
+/*        public override string ToString()
         {
             string perim = string.Format("{0:0.##}", Perimeter);
             string area = string.Format("{0:0.##}", Area); 
             return $"\n-----------A {Color} Circle-----------\nRadius of Circle : {Radius}\nDiameter of Circle : {Diameter}\nCircumference of Circle : {perim}\nArea of Circle : {area}\n";
-        }
+        }*/
     }
 }
