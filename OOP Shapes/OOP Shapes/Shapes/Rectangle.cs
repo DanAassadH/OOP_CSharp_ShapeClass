@@ -16,19 +16,15 @@ namespace OOP_Shapes.Shapes
         // Perimeter of Rectangle = 2L + 2W
         public override double Perimeter
         {
-            get
-            {
-                return 2*Length + 2*Width;
-            }
+            get => 2 * Length + 2 * Width;
+
         }
 
         // Area of Rectangle = L * W
         public override double Area
         {
-            get
-            {
-                return Length*Width;
-            }
+            get => Length * Width;
+
         }
 
         public Rectangle(double length, double width, string color)

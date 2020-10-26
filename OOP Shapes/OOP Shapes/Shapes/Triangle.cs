@@ -28,19 +28,15 @@ namespace OOP_Shapes.Shapes
         // Perimeter of Triangle = 3 * Base
         public override double Perimeter  // the area and perimeter property shows an example of polymorphism. Polymorphism means that you can have multiple classes that can be used interchangeably, even though each class implements the same properties or methods in different ways.
         {
-            get
-            {
-                return 3 * BaseLength;
-            }
+            get => 3 * BaseLength;
+
         }
 
         // Area of Triangle = (1/4) * √3 * a^2
         public override double Area
         {
-            get
-            {
-                return 0.25 * Math.Sqrt(3) * (BaseLength* BaseLength);
-            }
+            get => 0.25 * Math.Sqrt(3) * (BaseLength * BaseLength);
+
         }
 
         public Triangle(double baseLength, string color)

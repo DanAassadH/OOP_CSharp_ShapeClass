@@ -14,34 +14,23 @@ namespace OOP_Shapes.Shapes
         private double _diameter;
         public double Diameter
         {
-            get
-            {
-                return _diameter;
-            }
-
-            set
-            {
-                _diameter = 2 * Radius;
-            }
+            // https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/expression-bodied-members
+            get => _diameter;
+            set => _diameter = 2 * Radius;
         }
 
 
         //Circumference(Equivalent to Perimeter)  of Circle = 2PI*r
         public override double Perimeter
         {
-            get
-            {
-                return 2 * 3.14 * Radius;
-            }
+            get => 2 * 3.14 * Radius;
+
         }
 
         // Area of circle = PI * r^2
         public override double Area
         {
-            get
-            {
-                return 3.14 * Radius * Radius;
-            }
+            get => 3.14 * Radius * Radius;
         }
 
         public Circle(double radius, string color)

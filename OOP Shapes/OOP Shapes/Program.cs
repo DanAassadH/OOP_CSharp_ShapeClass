@@ -11,16 +11,19 @@ namespace OOP_Shapes
 
             Drawing makeDrawing = new Drawing();
 
-            Console.WriteLine(new Circle(3, "Red"));
-            Console.WriteLine(new Rectangle(3, 2, "Yellow"));
             Console.WriteLine(new Triangle(9, "Blue"));
+            Console.WriteLine(new Rectangle(3, 2, "Yellow"));
+            Console.WriteLine(new Circle(3, "Red"));
+            Console.WriteLine(new Rectangle());
+
             makeDrawing.Draw(new Triangle(9, "Blue"));
             makeDrawing.Draw(new Rectangle(3, 2, "Yellow"));
             makeDrawing.Draw(new Circle(3, "Red"));
+            makeDrawing.Draw(new Rectangle());
 
             Console.WriteLine(makeDrawing);
-            Console.WriteLine($"Total area covered by all the shapes is :  {string.Format("{0:0.##}", makeDrawing.SpaceCovered)}");
             Console.WriteLine($"Total Perimeter covered by all the shapes is :  {string.Format("{0:0.##}", makeDrawing.LinesDrawn)}");
+            Console.WriteLine($"Total area covered by all the shapes is :  {string.Format("{0:0.##}", makeDrawing.SpaceCovered)}");
 
 
 
