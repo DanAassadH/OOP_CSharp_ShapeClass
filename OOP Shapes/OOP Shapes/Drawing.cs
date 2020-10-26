@@ -21,9 +21,32 @@ namespace OOP_Shapes
             }
         }
 
-        public double SpaceCovered { get; }
+        public double SpaceCovered 
+        {
+            get
+            {
+                double totalArea=0;
+                foreach (Shape aShape in Shapes)
+                {
+                    totalArea += aShape.Area ;
+                }
+                return totalArea;
+            } 
+        
+        }
 
-        public double LinesDrawn { get; }
+        public double LinesDrawn
+        {
+            get
+            {
+                double totalPerimeter = 0;
+                foreach (Shape aShape in Shapes)
+                {
+                    totalPerimeter += aShape.Perimeter;
+                }
+                return totalPerimeter;
+            }
+        }
 
         public void Draw(Shape shapeToAdd)
         {
@@ -43,7 +66,7 @@ namespace OOP_Shapes
                 i++;
             }
 
-                return $"A Drawing consiting of {i} shapes";
+                return $"\nA Drawing consiting of {i} shapes";
         }
     }
 }

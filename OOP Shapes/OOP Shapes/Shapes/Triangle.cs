@@ -55,12 +55,12 @@ namespace OOP_Shapes.Shapes
             Height = Height;
         }
 
-/*        public override string ToString()
+        public override string ToString()
         {
             string perim = string.Format("{0:0.##}", Perimeter);
             string area = string.Format("{0:0.##}", Area);
             string height = string.Format("{0:0.##}", Height);
-            return $"\n-----------A {Color} Triangle-----------\nBase of Triangle : {BaseLength}\nHeight of Triangle : {height}\nPerimeter of Triangle : {perim}\nArea of Triangle : {area}\n";
-        }*/
+            return $"\n-----------A {Color} Triangle-----------\nBase of Triangle : {BaseLength}\nHeight of Triangle : {height}\nPerimeter of Triangle : {perim}\nArea of Triangle : {area}";
+        }
     }
 }

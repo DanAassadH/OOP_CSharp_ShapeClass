@@ -44,11 +44,11 @@ namespace OOP_Shapes.Shapes
             Width = 10;
         }
 
-/*        public override string ToString()
+        public override string ToString()
         {
             string perim = string.Format("{0:0.##}", Perimeter);
             string area = string.Format("{0:0.##}", Area);
-            return $"\n-----------A {Color} Rectangle-----------\nLength of Rectangle : {Length}\nWidth of Rectangle : {Width}\nPerimeter of Rectangle : {perim}\nArea of Rectangle : {area}\n"; 
-        }*/
+            return $"\n-----------A {Color} Rectangle-----------\nLength of Rectangle : {Length}\nWidth of Rectangle : {Width}\nPerimeter of Rectangle : {perim}\nArea of Rectangle : {area}";
+        }
     }
 }
